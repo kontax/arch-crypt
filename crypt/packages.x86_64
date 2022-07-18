@@ -1,43 +1,51 @@
-# Base packages without networking
+# Base
 filesystem
 gcc-libs
 glibc
 bash
 coreutils
-file
-findutils
-gawk
-grep
 procps-ng
-sed
-tar
 gettext
+linux
+mkinitcpio
+mkinitcpio-archiso
 pciutils
 psmisc
 shadow
 util-linux
-bzip2
-gzip
-xz
 licenses
 pacman
+syslinux
 systemd
 systemd-sysvcompat
+zsh
 
-# Others
-hyperv
-linux
-mkinitcpio
-mkinitcpio-archiso
-open-vm-tools
-openssh
+# File
+file
+findutils
+
+# Process
 pv
+
+# Text
+gawk
+grep
+neovim
+sed
+
+# Archive
+bzip2
+gzip
+tar
+xz
+
+# VM
+hyperv
+open-vm-tools
 qemu-guest-agent
-syslinux
 virtualbox-guest-utils-nox
 
-neovim
-zsh
+# Crypt + Smartcard
 gnupg
 pcsclite
 ccid
