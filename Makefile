@@ -3,7 +3,7 @@
 
 all: clean crypt
 
-crypt:
+crypt: clean
 	@echo Generating iso file
 	sudo mkarchiso -v -w /tmp/archiso-tmp crypt/
 
